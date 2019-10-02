@@ -1,3 +1,7 @@
+本repo基于KKBOX/grafana-elasticsearch-dashboard及justwatchcom dashboard修改而成。
+
+elasticsearch_exporter 1.1.0
+
 ## Grafana dashboard for Elasticsearch
 
 This dashboard requires and work perfectly with [elasticsearch_exporter](https://github.com/justwatchcom/elasticsearch_exporter),
@@ -6,18 +10,17 @@ importance.
 
 ### Installation
 
-You can download json file directly on [Grafana.com](https://grafana.com/dashboards/7259) or tries the latest version of dashboard
 from this repo. After that, Just following [this guide](https://docs.grafana.org/reference/export_import/#importing-a-dashboard)
 to import dashboard.
 
 ### Screenshot
 
-![Cluster stats](https://grafana.com/api/dashboards/7259/images/4625/image)
+![Cluster stats](https://github.com/jiankunking/grafana-elasticsearch-dashboard/blob/master/images/ClusterStats.png)
 
-![Machine stats](https://grafana.com/api/dashboards/7259/images/4649/image)
+![Machine stats](https://github.com/jiankunking/grafana-elasticsearch-dashboard/blob/master/images/MachineStats.png)
 
-![Latency stats](https://grafana.com/api/dashboards/7259/images/4640/image)
+![Latency stats](https://github.com/jiankunking/grafana-elasticsearch-dashboard/blob/master/images/LatencyStats.png)
 
-![Queue stats](https://grafana.com/api/dashboards/7259/images/4643/image)
+![Queue stats](https://github.com/jiankunking/grafana-elasticsearch-dashboard/blob/master/images/QueueStats.png)
 
-![GC stats](https://grafana.com/api/dashboards/7259/images/4646/image)
+![GC stats](https://github.com/jiankunking/grafana-elasticsearch-dashboard/blob/master/images/GCStats.png)
